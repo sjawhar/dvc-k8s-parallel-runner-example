@@ -1,0 +1,516 @@
+schema: '2.0'
+stages:
+  analyze@99570843-e2ac-4be4-951e-d3b77f629d66:
+    cmd: python src/analyze.py --params-file=params.yaml ../load/data/processed/PART_000/1.npz
+      models/PART_000/1.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: ../load/data/processed/PART_000/1.npz
+      md5: fec8043d3cdcc4c16d7a42a880e50a62
+      size: 23218
+    - path: src/analyze.py
+      md5: 78b08c0265b6769f6bd3807e488049a4
+      size: 1304
+    params:
+      params.yaml:
+        analyze:
+          fit_intercept: true
+    outs:
+    - path: models/PART_000/1.npz
+      md5: 5bfcdb80ac860eb2dc4596d7951afaf8
+      size: 16175
+  analyze@ca48c98b-4e6b-4914-ab60-285d8bd1709e:
+    cmd: python src/analyze.py --params-file=params.yaml ../load/data/processed/PART_009/2.npz
+      models/PART_009/2.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: ../load/data/processed/PART_009/2.npz
+      md5: 548fed16a2d3eba522c1dae99c38e37d
+      size: 23209
+    - path: src/analyze.py
+      md5: 78b08c0265b6769f6bd3807e488049a4
+      size: 1304
+    params:
+      params.yaml:
+        analyze:
+          fit_intercept: true
+    outs:
+    - path: models/PART_009/2.npz
+      md5: 8eb20c0e2e36bdffc37b26c950396ca5
+      size: 15988
+  analyze@33952ecf-906a-4a30-881c-46007f34b50b:
+    cmd: python src/analyze.py --params-file=params.yaml ../load/data/processed/PART_007/1.npz
+      models/PART_007/1.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: ../load/data/processed/PART_007/1.npz
+      md5: 831460bfc5f6ed4e46a3dbb658efea47
+      size: 23227
+    - path: src/analyze.py
+      md5: 78b08c0265b6769f6bd3807e488049a4
+      size: 1304
+    params:
+      params.yaml:
+        analyze:
+          fit_intercept: true
+    outs:
+    - path: models/PART_007/1.npz
+      md5: ad74c6ac1ff97308e57f0ad43d3a876d
+      size: 16161
+  analyze@09a32989-97d0-47ca-9918-527898d9bb26:
+    cmd: python src/analyze.py --params-file=params.yaml ../load/data/processed/PART_003/2.npz
+      models/PART_003/2.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: ../load/data/processed/PART_003/2.npz
+      md5: ce603481efabaa75ae10bb3b5e50f6c7
+      size: 23202
+    - path: src/analyze.py
+      md5: 78b08c0265b6769f6bd3807e488049a4
+      size: 1304
+    params:
+      params.yaml:
+        analyze:
+          fit_intercept: true
+    outs:
+    - path: models/PART_003/2.npz
+      md5: 42e4e1ae228e0ba6b0ed607fb546bb66
+      size: 16164
+  analyze@88d97dd0-d1e1-4f64-8c20-d950569b7880:
+    cmd: python src/analyze.py --params-file=params.yaml ../load/data/processed/PART_001/1.npz
+      models/PART_001/1.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: ../load/data/processed/PART_001/1.npz
+      md5: 68583251807dda26f5f21ed7de33f337
+      size: 23209
+    - path: src/analyze.py
+      md5: 78b08c0265b6769f6bd3807e488049a4
+      size: 1304
+    params:
+      params.yaml:
+        analyze:
+          fit_intercept: true
+    outs:
+    - path: models/PART_001/1.npz
+      md5: 84177de8ab0e8757e7c938f41910f839
+      size: 16170
+  analyze@583d6bfb-c5e0-4515-8880-fd8e183d75cd:
+    cmd: python src/analyze.py --params-file=params.yaml ../load/data/processed/PART_004/2.npz
+      models/PART_004/2.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: ../load/data/processed/PART_004/2.npz
+      md5: c2e660e1da7f354b6dc4e1ec1f1ccbe2
+      size: 23203
+    - path: src/analyze.py
+      md5: 78b08c0265b6769f6bd3807e488049a4
+      size: 1304
+    params:
+      params.yaml:
+        analyze:
+          fit_intercept: true
+    outs:
+    - path: models/PART_004/2.npz
+      md5: e716dc70423a9ac492b1bd4444380733
+      size: 16181
+  analyze@0cfda2cb-9a79-47ae-bc37-cd45306fa4ae:
+    cmd: python src/analyze.py --params-file=params.yaml ../load/data/processed/PART_008/1.npz
+      models/PART_008/1.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: ../load/data/processed/PART_008/1.npz
+      md5: d978a2951dacd6c8473bed71bcc9d113
+      size: 23220
+    - path: src/analyze.py
+      md5: 78b08c0265b6769f6bd3807e488049a4
+      size: 1304
+    params:
+      params.yaml:
+        analyze:
+          fit_intercept: true
+    outs:
+    - path: models/PART_008/1.npz
+      md5: 0ff2723240460c8dd0c4504e0f60f546
+      size: 16150
+  analyze@94dfa000-f9ed-4fbf-b732-eaa6e6183418:
+    cmd: python src/analyze.py --params-file=params.yaml ../load/data/processed/PART_002/2.npz
+      models/PART_002/2.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: ../load/data/processed/PART_002/2.npz
+      md5: 711e140777ac3df3a45bc48211159b3e
+      size: 23190
+    - path: src/analyze.py
+      md5: 78b08c0265b6769f6bd3807e488049a4
+      size: 1304
+    params:
+      params.yaml:
+        analyze:
+          fit_intercept: true
+    outs:
+    - path: models/PART_002/2.npz
+      md5: 6d19b9280d90e334437bd7d8e0aa5fef
+      size: 16161
+  analyze@92fdaf7d-d5c1-4d10-a283-e6dce50a06bf:
+    cmd: python src/analyze.py --params-file=params.yaml ../load/data/processed/PART_001/2.npz
+      models/PART_001/2.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: ../load/data/processed/PART_001/2.npz
+      md5: e23b7d8bece522657a84313513a418d8
+      size: 23202
+    - path: src/analyze.py
+      md5: 78b08c0265b6769f6bd3807e488049a4
+      size: 1304
+    params:
+      params.yaml:
+        analyze:
+          fit_intercept: true
+    outs:
+    - path: models/PART_001/2.npz
+      md5: 69238e4a43d729d3328e38639933ad49
+      size: 16141
+  analyze@650f589d-01b3-4c35-90e6-a1f4db56e0e8:
+    cmd: python src/analyze.py --params-file=params.yaml ../load/data/processed/PART_008/2.npz
+      models/PART_008/2.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: ../load/data/processed/PART_008/2.npz
+      md5: 69e595c4eebb9b7d12db4e97d9cb9239
+      size: 23225
+    - path: src/analyze.py
+      md5: 78b08c0265b6769f6bd3807e488049a4
+      size: 1304
+    params:
+      params.yaml:
+        analyze:
+          fit_intercept: true
+    outs:
+    - path: models/PART_008/2.npz
+      md5: baa5dfb5efcbf4dec591d2049ad565c0
+      size: 16177
+  analyze@3778272f-3275-483b-b5b9-248ec504bdff:
+    cmd: python src/analyze.py --params-file=params.yaml ../load/data/processed/PART_002/1.npz
+      models/PART_002/1.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: ../load/data/processed/PART_002/1.npz
+      md5: 4b080086c747a50938e6eea6fcce1492
+      size: 23212
+    - path: src/analyze.py
+      md5: 78b08c0265b6769f6bd3807e488049a4
+      size: 1304
+    params:
+      params.yaml:
+        analyze:
+          fit_intercept: true
+    outs:
+    - path: models/PART_002/1.npz
+      md5: 158429478ee411f9aaa976f1ecc207cf
+      size: 16154
+  analyze@1fb69a81-1078-4588-8909-8c3054697780:
+    cmd: python src/analyze.py --params-file=params.yaml ../load/data/processed/PART_005/2.npz
+      models/PART_005/2.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: ../load/data/processed/PART_005/2.npz
+      md5: 13f8d9d5220c3113e332dcd886842544
+      size: 23208
+    - path: src/analyze.py
+      md5: 78b08c0265b6769f6bd3807e488049a4
+      size: 1304
+    params:
+      params.yaml:
+        analyze:
+          fit_intercept: true
+    outs:
+    - path: models/PART_005/2.npz
+      md5: d0b2e5c45e497b9257d4340eec643bdf
+      size: 16018
+  analyze@7b6bcdc5-8b55-4058-9ee1-24adb19b81d8:
+    cmd: python src/analyze.py --params-file=params.yaml ../load/data/processed/PART_009/1.npz
+      models/PART_009/1.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: ../load/data/processed/PART_009/1.npz
+      md5: 38cd92de7b0afede08812b50c921e9a3
+      size: 23208
+    - path: src/analyze.py
+      md5: 78b08c0265b6769f6bd3807e488049a4
+      size: 1304
+    params:
+      params.yaml:
+        analyze:
+          fit_intercept: true
+    outs:
+    - path: models/PART_009/1.npz
+      md5: 4c552530f7ef14ae9cd3ab5267d6a80b
+      size: 16010
+  analyze@41e70b28-8057-4236-8cce-49c9accb947f:
+    cmd: python src/analyze.py --params-file=params.yaml ../load/data/processed/PART_006/2.npz
+      models/PART_006/2.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: ../load/data/processed/PART_006/2.npz
+      md5: adc8dfed5c4becda3bfb83fdcc0d1df6
+      size: 23214
+    - path: src/analyze.py
+      md5: 78b08c0265b6769f6bd3807e488049a4
+      size: 1304
+    params:
+      params.yaml:
+        analyze:
+          fit_intercept: true
+    outs:
+    - path: models/PART_006/2.npz
+      md5: 2c8cf6b21750ef47955f0253859bf0ad
+      size: 16172
+  analyze@2a29f7d7-ab4f-445f-898c-126777161162:
+    cmd: python src/analyze.py --params-file=params.yaml ../load/data/processed/PART_000/2.npz
+      models/PART_000/2.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: ../load/data/processed/PART_000/2.npz
+      md5: 90c45a99c16279e7a853d54866447cf2
+      size: 23229
+    - path: src/analyze.py
+      md5: 78b08c0265b6769f6bd3807e488049a4
+      size: 1304
+    params:
+      params.yaml:
+        analyze:
+          fit_intercept: true
+    outs:
+    - path: models/PART_000/2.npz
+      md5: bd7237cda2c01f994c62decf155656d5
+      size: 16162
+  analyze@595df548-e819-449c-9607-e479a335e4cc:
+    cmd: python src/analyze.py --params-file=params.yaml ../load/data/processed/PART_006/1.npz
+      models/PART_006/1.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: ../load/data/processed/PART_006/1.npz
+      md5: 4171c1358d426410f61388f7d6aa286e
+      size: 23214
+    - path: src/analyze.py
+      md5: 78b08c0265b6769f6bd3807e488049a4
+      size: 1304
+    params:
+      params.yaml:
+        analyze:
+          fit_intercept: true
+    outs:
+    - path: models/PART_006/1.npz
+      md5: e14a8d95cda0f27ddd313bb7f5ab52d3
+      size: 16166
+  analyze@76e8531e-dcb0-48dc-8856-d703a5d575e7:
+    cmd: python src/analyze.py --params-file=params.yaml ../load/data/processed/PART_007/2.npz
+      models/PART_007/2.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: ../load/data/processed/PART_007/2.npz
+      md5: ca3e90b2aa307a3a15b9ba54cb8255df
+      size: 23208
+    - path: src/analyze.py
+      md5: 78b08c0265b6769f6bd3807e488049a4
+      size: 1304
+    params:
+      params.yaml:
+        analyze:
+          fit_intercept: true
+    outs:
+    - path: models/PART_007/2.npz
+      md5: 6f90cc0523910f57a3a3224f2df41521
+      size: 16179
+  analyze@5d36533d-4eee-41ad-8927-3bd962f85248:
+    cmd: python src/analyze.py --params-file=params.yaml ../load/data/processed/PART_003/1.npz
+      models/PART_003/1.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: ../load/data/processed/PART_003/1.npz
+      md5: 64762a4935c9ede5081724a05a968aae
+      size: 23220
+    - path: src/analyze.py
+      md5: 78b08c0265b6769f6bd3807e488049a4
+      size: 1304
+    params:
+      params.yaml:
+        analyze:
+          fit_intercept: true
+    outs:
+    - path: models/PART_003/1.npz
+      md5: 1df06b4e7f44ac6f66e143278f3e71e2
+      size: 16170
+  analyze@c0880af0-376b-4170-bd66-0cf2bbc158f7:
+    cmd: python src/analyze.py --params-file=params.yaml ../load/data/processed/PART_005/1.npz
+      models/PART_005/1.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: ../load/data/processed/PART_005/1.npz
+      md5: bf19f8a29e7de1c26a48ddf74d044277
+      size: 23220
+    - path: src/analyze.py
+      md5: 78b08c0265b6769f6bd3807e488049a4
+      size: 1304
+    params:
+      params.yaml:
+        analyze:
+          fit_intercept: true
+    outs:
+    - path: models/PART_005/1.npz
+      md5: c4c110ce8a139d7f0d1094d8b47e5c18
+      size: 16142
+  analyze@7038c22b-d5da-47c5-ab06-1b5da7f84d1f:
+    cmd: python src/analyze.py --params-file=params.yaml ../load/data/processed/PART_004/1.npz
+      models/PART_004/1.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: ../load/data/processed/PART_004/1.npz
+      md5: b27004585ded222a59d9165737f32e3a
+      size: 23208
+    - path: src/analyze.py
+      md5: 78b08c0265b6769f6bd3807e488049a4
+      size: 1304
+    params:
+      params.yaml:
+        analyze:
+          fit_intercept: true
+    outs:
+    - path: models/PART_004/1.npz
+      md5: c3a91d5c0c404fe492521ef740be42f4
+      size: 15995
+  aggregate:
+    cmd: python src/aggregate.py --params-file=params.yaml --plot=plots/model.png
+      --sessions-file=../sessions.yaml models metrics/metrics.json
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: models
+      md5: 0f2c7f5cc4a5962b1d2258ca258907b2.dir
+      size: 322642
+      nfiles: 21
+    - path: src/aggregate.py
+      md5: fcfc9a33432363e39a9ef3a43cc59e1e
+      size: 3121
+    params:
+      params.yaml:
+        aggregate:
+          ranksums:
+            alternative: greater
+          precision: 5
+          plot:
+            figsize:
+            - 16
+            - 5
+            tight_layout: true
+      ../sessions.yaml:
+        sessions:
+          09a32989-97d0-47ca-9918-527898d9bb26:
+            participant_id: PART_003
+            session_number: 2
+          0cfda2cb-9a79-47ae-bc37-cd45306fa4ae:
+            participant_id: PART_008
+            session_number: 1
+          1fb69a81-1078-4588-8909-8c3054697780:
+            participant_id: PART_005
+            session_number: 2
+          2a29f7d7-ab4f-445f-898c-126777161162:
+            participant_id: PART_000
+            session_number: 2
+          33952ecf-906a-4a30-881c-46007f34b50b:
+            participant_id: PART_007
+            session_number: 1
+          3778272f-3275-483b-b5b9-248ec504bdff:
+            participant_id: PART_002
+            session_number: 1
+          41e70b28-8057-4236-8cce-49c9accb947f:
+            participant_id: PART_006
+            session_number: 2
+          583d6bfb-c5e0-4515-8880-fd8e183d75cd:
+            participant_id: PART_004
+            session_number: 2
+          595df548-e819-449c-9607-e479a335e4cc:
+            participant_id: PART_006
+            session_number: 1
+          5d36533d-4eee-41ad-8927-3bd962f85248:
+            participant_id: PART_003
+            session_number: 1
+          650f589d-01b3-4c35-90e6-a1f4db56e0e8:
+            participant_id: PART_008
+            session_number: 2
+          7038c22b-d5da-47c5-ab06-1b5da7f84d1f:
+            participant_id: PART_004
+            session_number: 1
+          76e8531e-dcb0-48dc-8856-d703a5d575e7:
+            participant_id: PART_007
+            session_number: 2
+          7b6bcdc5-8b55-4058-9ee1-24adb19b81d8:
+            participant_id: PART_009
+            session_number: 1
+          88d97dd0-d1e1-4f64-8c20-d950569b7880:
+            participant_id: PART_001
+            session_number: 1
+          92fdaf7d-d5c1-4d10-a283-e6dce50a06bf:
+            participant_id: PART_001
+            session_number: 2
+          94dfa000-f9ed-4fbf-b732-eaa6e6183418:
+            participant_id: PART_002
+            session_number: 2
+          99570843-e2ac-4be4-951e-d3b77f629d66:
+            participant_id: PART_000
+            session_number: 1
+          c0880af0-376b-4170-bd66-0cf2bbc158f7:
+            participant_id: PART_005
+            session_number: 1
+          ca48c98b-4e6b-4914-ab60-285d8bd1709e:
+            participant_id: PART_009
+            session_number: 2
+    outs:
+    - path: metrics/metrics.json
+      md5: b197fec1597f478bbc77fae5276f8e6c
+      size: 195
+    - path: plots/model.png
+      md5: 700714f2a516d726fa588c19c364fdbd
+      size: 21549

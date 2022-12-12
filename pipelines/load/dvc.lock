@@ -1,0 +1,1002 @@
+schema: '2.0'
+stages:
+  load@7038c22b-d5da-47c5-ab06-1b5da7f84d1f:
+    cmd: python src/load.py --params-file=params.yaml data/raw/7038c22b-d5da-47c5-ab06-1b5da7f84d1f.csv
+      data/interim/PART_004/1.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: data/raw/7038c22b-d5da-47c5-ab06-1b5da7f84d1f.csv
+      md5: 20674beea2f46fc2fcf9aac0434e1a24
+      size: 102076
+    - path: src/load.py
+      md5: 70e9b6df82ca95488319368beb117e6c
+      size: 1003
+    params:
+      params.yaml:
+        load:
+          usecols:
+          - 1
+          - 3
+          - 4
+          header: 0
+      ../sessions.yaml:
+        sessions.7038c22b-d5da-47c5-ab06-1b5da7f84d1f:
+          participant_id: PART_004
+          session_number: 1
+    outs:
+    - path: data/interim/PART_004/1.npz
+      md5: abcd2766574f86d4d0e06293aed019f7
+      size: 23275
+  load@ca48c98b-4e6b-4914-ab60-285d8bd1709e:
+    cmd: python src/load.py --params-file=params.yaml data/raw/ca48c98b-4e6b-4914-ab60-285d8bd1709e.csv
+      data/interim/PART_009/2.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: data/raw/ca48c98b-4e6b-4914-ab60-285d8bd1709e.csv
+      md5: be237b7ef5ec28e4dee80457d3fcaeb5
+      size: 102059
+    - path: src/load.py
+      md5: 70e9b6df82ca95488319368beb117e6c
+      size: 1003
+    params:
+      params.yaml:
+        load:
+          usecols:
+          - 1
+          - 3
+          - 4
+          header: 0
+      ../sessions.yaml:
+        sessions.ca48c98b-4e6b-4914-ab60-285d8bd1709e:
+          participant_id: PART_009
+          session_number: 2
+    outs:
+    - path: data/interim/PART_009/2.npz
+      md5: 00557f62cb83d12cc1200d836f76f371
+      size: 23294
+  load@76e8531e-dcb0-48dc-8856-d703a5d575e7:
+    cmd: python src/load.py --params-file=params.yaml data/raw/76e8531e-dcb0-48dc-8856-d703a5d575e7.csv
+      data/interim/PART_007/2.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: data/raw/76e8531e-dcb0-48dc-8856-d703a5d575e7.csv
+      md5: 543bd6a657352e81bc168a112061ad87
+      size: 102134
+    - path: src/load.py
+      md5: 70e9b6df82ca95488319368beb117e6c
+      size: 1003
+    params:
+      params.yaml:
+        load:
+          usecols:
+          - 1
+          - 3
+          - 4
+          header: 0
+      ../sessions.yaml:
+        sessions.76e8531e-dcb0-48dc-8856-d703a5d575e7:
+          participant_id: PART_007
+          session_number: 2
+    outs:
+    - path: data/interim/PART_007/2.npz
+      md5: 00724f016e2d3d39f3c20e3e18555824
+      size: 23287
+  load@1fb69a81-1078-4588-8909-8c3054697780:
+    cmd: python src/load.py --params-file=params.yaml data/raw/1fb69a81-1078-4588-8909-8c3054697780.csv
+      data/interim/PART_005/2.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: data/raw/1fb69a81-1078-4588-8909-8c3054697780.csv
+      md5: 1c91eff2e1ca317f2d84112b734f2c00
+      size: 102102
+    - path: src/load.py
+      md5: 70e9b6df82ca95488319368beb117e6c
+      size: 1003
+    params:
+      params.yaml:
+        load:
+          usecols:
+          - 1
+          - 3
+          - 4
+          header: 0
+      ../sessions.yaml:
+        sessions.1fb69a81-1078-4588-8909-8c3054697780:
+          participant_id: PART_005
+          session_number: 2
+    outs:
+    - path: data/interim/PART_005/2.npz
+      md5: 81c9810ad908e5ab509a011fa7f785a2
+      size: 23291
+  load@33952ecf-906a-4a30-881c-46007f34b50b:
+    cmd: python src/load.py --params-file=params.yaml data/raw/33952ecf-906a-4a30-881c-46007f34b50b.csv
+      data/interim/PART_007/1.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: data/raw/33952ecf-906a-4a30-881c-46007f34b50b.csv
+      md5: b323fbf09d8fe3cca9fed2fc5835c984
+      size: 101945
+    - path: src/load.py
+      md5: 70e9b6df82ca95488319368beb117e6c
+      size: 1003
+    params:
+      params.yaml:
+        load:
+          usecols:
+          - 1
+          - 3
+          - 4
+          header: 0
+      ../sessions.yaml:
+        sessions.33952ecf-906a-4a30-881c-46007f34b50b:
+          participant_id: PART_007
+          session_number: 1
+    outs:
+    - path: data/interim/PART_007/1.npz
+      md5: 58d785611dfbc066ebf64c3fc73ff8e2
+      size: 23283
+  load@41e70b28-8057-4236-8cce-49c9accb947f:
+    cmd: python src/load.py --params-file=params.yaml data/raw/41e70b28-8057-4236-8cce-49c9accb947f.csv
+      data/interim/PART_006/2.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: data/raw/41e70b28-8057-4236-8cce-49c9accb947f.csv
+      md5: 8cfaef99106b553248a443597a17c3d2
+      size: 102053
+    - path: src/load.py
+      md5: 70e9b6df82ca95488319368beb117e6c
+      size: 1003
+    params:
+      params.yaml:
+        load:
+          usecols:
+          - 1
+          - 3
+          - 4
+          header: 0
+      ../sessions.yaml:
+        sessions.41e70b28-8057-4236-8cce-49c9accb947f:
+          participant_id: PART_006
+          session_number: 2
+    outs:
+    - path: data/interim/PART_006/2.npz
+      md5: e8deb4e37a20de5870bd6d82794da7a6
+      size: 23306
+  load@92fdaf7d-d5c1-4d10-a283-e6dce50a06bf:
+    cmd: python src/load.py --params-file=params.yaml data/raw/92fdaf7d-d5c1-4d10-a283-e6dce50a06bf.csv
+      data/interim/PART_001/2.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: data/raw/92fdaf7d-d5c1-4d10-a283-e6dce50a06bf.csv
+      md5: f1a513a39a1263e7bd0b394bfb10735b
+      size: 102074
+    - path: src/load.py
+      md5: 70e9b6df82ca95488319368beb117e6c
+      size: 1003
+    params:
+      params.yaml:
+        load:
+          usecols:
+          - 1
+          - 3
+          - 4
+          header: 0
+      ../sessions.yaml:
+        sessions.92fdaf7d-d5c1-4d10-a283-e6dce50a06bf:
+          participant_id: PART_001
+          session_number: 2
+    outs:
+    - path: data/interim/PART_001/2.npz
+      md5: 022a31644f365aa89acb347071eab900
+      size: 23272
+  load@2a29f7d7-ab4f-445f-898c-126777161162:
+    cmd: python src/load.py --params-file=params.yaml data/raw/2a29f7d7-ab4f-445f-898c-126777161162.csv
+      data/interim/PART_000/2.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: data/raw/2a29f7d7-ab4f-445f-898c-126777161162.csv
+      md5: 75910b631eb083ef272e6d8815bbdb67
+      size: 102055
+    - path: src/load.py
+      md5: 70e9b6df82ca95488319368beb117e6c
+      size: 1003
+    params:
+      params.yaml:
+        load:
+          usecols:
+          - 1
+          - 3
+          - 4
+          header: 0
+      ../sessions.yaml:
+        sessions.2a29f7d7-ab4f-445f-898c-126777161162:
+          participant_id: PART_000
+          session_number: 2
+    outs:
+    - path: data/interim/PART_000/2.npz
+      md5: e6ab278f785584e2e820ce5b2e5c0b48
+      size: 23294
+  load@0cfda2cb-9a79-47ae-bc37-cd45306fa4ae:
+    cmd: python src/load.py --params-file=params.yaml data/raw/0cfda2cb-9a79-47ae-bc37-cd45306fa4ae.csv
+      data/interim/PART_008/1.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: data/raw/0cfda2cb-9a79-47ae-bc37-cd45306fa4ae.csv
+      md5: 6fc5fa4df4e4ef81a6ba0c5395d57c29
+      size: 102115
+    - path: src/load.py
+      md5: 70e9b6df82ca95488319368beb117e6c
+      size: 1003
+    params:
+      params.yaml:
+        load:
+          usecols:
+          - 1
+          - 3
+          - 4
+          header: 0
+      ../sessions.yaml:
+        sessions.0cfda2cb-9a79-47ae-bc37-cd45306fa4ae:
+          participant_id: PART_008
+          session_number: 1
+    outs:
+    - path: data/interim/PART_008/1.npz
+      md5: ae9e1db618ce9a376caa046bf82dd4fa
+      size: 23292
+  load@3778272f-3275-483b-b5b9-248ec504bdff:
+    cmd: python src/load.py --params-file=params.yaml data/raw/3778272f-3275-483b-b5b9-248ec504bdff.csv
+      data/interim/PART_002/1.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: data/raw/3778272f-3275-483b-b5b9-248ec504bdff.csv
+      md5: 28ec8901d24223e76f7c37a1a0988e3c
+      size: 101957
+    - path: src/load.py
+      md5: 70e9b6df82ca95488319368beb117e6c
+      size: 1003
+    params:
+      params.yaml:
+        load:
+          usecols:
+          - 1
+          - 3
+          - 4
+          header: 0
+      ../sessions.yaml:
+        sessions.3778272f-3275-483b-b5b9-248ec504bdff:
+          participant_id: PART_002
+          session_number: 1
+    outs:
+    - path: data/interim/PART_002/1.npz
+      md5: c2800195797b042b96ea362ed20315bf
+      size: 23292
+  load@650f589d-01b3-4c35-90e6-a1f4db56e0e8:
+    cmd: python src/load.py --params-file=params.yaml data/raw/650f589d-01b3-4c35-90e6-a1f4db56e0e8.csv
+      data/interim/PART_008/2.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: data/raw/650f589d-01b3-4c35-90e6-a1f4db56e0e8.csv
+      md5: 7c4c963ecc9bf7443dababad480660ca
+      size: 101990
+    - path: src/load.py
+      md5: 70e9b6df82ca95488319368beb117e6c
+      size: 1003
+    params:
+      params.yaml:
+        load:
+          usecols:
+          - 1
+          - 3
+          - 4
+          header: 0
+      ../sessions.yaml:
+        sessions.650f589d-01b3-4c35-90e6-a1f4db56e0e8:
+          participant_id: PART_008
+          session_number: 2
+    outs:
+    - path: data/interim/PART_008/2.npz
+      md5: cd008e44fb1430b8698caaf6166520ed
+      size: 23296
+  load@7b6bcdc5-8b55-4058-9ee1-24adb19b81d8:
+    cmd: python src/load.py --params-file=params.yaml data/raw/7b6bcdc5-8b55-4058-9ee1-24adb19b81d8.csv
+      data/interim/PART_009/1.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: data/raw/7b6bcdc5-8b55-4058-9ee1-24adb19b81d8.csv
+      md5: c631515ea9894d7255b0db47fb9d7530
+      size: 102047
+    - path: src/load.py
+      md5: 70e9b6df82ca95488319368beb117e6c
+      size: 1003
+    params:
+      params.yaml:
+        load:
+          usecols:
+          - 1
+          - 3
+          - 4
+          header: 0
+      ../sessions.yaml:
+        sessions.7b6bcdc5-8b55-4058-9ee1-24adb19b81d8:
+          participant_id: PART_009
+          session_number: 1
+    outs:
+    - path: data/interim/PART_009/1.npz
+      md5: 7be48c81134f8bace776836b272eb0aa
+      size: 23296
+  load@5d36533d-4eee-41ad-8927-3bd962f85248:
+    cmd: python src/load.py --params-file=params.yaml data/raw/5d36533d-4eee-41ad-8927-3bd962f85248.csv
+      data/interim/PART_003/1.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: data/raw/5d36533d-4eee-41ad-8927-3bd962f85248.csv
+      md5: f744e7e476549b99cb65f7f39a0c3cb2
+      size: 102103
+    - path: src/load.py
+      md5: 70e9b6df82ca95488319368beb117e6c
+      size: 1003
+    params:
+      params.yaml:
+        load:
+          usecols:
+          - 1
+          - 3
+          - 4
+          header: 0
+      ../sessions.yaml:
+        sessions.5d36533d-4eee-41ad-8927-3bd962f85248:
+          participant_id: PART_003
+          session_number: 1
+    outs:
+    - path: data/interim/PART_003/1.npz
+      md5: ccd2f54be19cc52764c314447f584b19
+      size: 23292
+  load@595df548-e819-449c-9607-e479a335e4cc:
+    cmd: python src/load.py --params-file=params.yaml data/raw/595df548-e819-449c-9607-e479a335e4cc.csv
+      data/interim/PART_006/1.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: data/raw/595df548-e819-449c-9607-e479a335e4cc.csv
+      md5: 6dc1cb8f578a5603ad397cfd9858a90a
+      size: 102038
+    - path: src/load.py
+      md5: 70e9b6df82ca95488319368beb117e6c
+      size: 1003
+    params:
+      params.yaml:
+        load:
+          usecols:
+          - 1
+          - 3
+          - 4
+          header: 0
+      ../sessions.yaml:
+        sessions.595df548-e819-449c-9607-e479a335e4cc:
+          participant_id: PART_006
+          session_number: 1
+    outs:
+    - path: data/interim/PART_006/1.npz
+      md5: 330fe38f24fdf411938f0610bc5e461e
+      size: 23273
+  load@94dfa000-f9ed-4fbf-b732-eaa6e6183418:
+    cmd: python src/load.py --params-file=params.yaml data/raw/94dfa000-f9ed-4fbf-b732-eaa6e6183418.csv
+      data/interim/PART_002/2.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: data/raw/94dfa000-f9ed-4fbf-b732-eaa6e6183418.csv
+      md5: 3af32801313bf485f035e54a4e53f8a1
+      size: 102045
+    - path: src/load.py
+      md5: 70e9b6df82ca95488319368beb117e6c
+      size: 1003
+    params:
+      params.yaml:
+        load:
+          usecols:
+          - 1
+          - 3
+          - 4
+          header: 0
+      ../sessions.yaml:
+        sessions.94dfa000-f9ed-4fbf-b732-eaa6e6183418:
+          participant_id: PART_002
+          session_number: 2
+    outs:
+    - path: data/interim/PART_002/2.npz
+      md5: aa52f035994f5f3ca34bf46da04b902d
+      size: 23283
+  load@09a32989-97d0-47ca-9918-527898d9bb26:
+    cmd: python src/load.py --params-file=params.yaml data/raw/09a32989-97d0-47ca-9918-527898d9bb26.csv
+      data/interim/PART_003/2.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: data/raw/09a32989-97d0-47ca-9918-527898d9bb26.csv
+      md5: 242abefb24f66ac16634e89e3ece18b2
+      size: 102037
+    - path: src/load.py
+      md5: 70e9b6df82ca95488319368beb117e6c
+      size: 1003
+    params:
+      params.yaml:
+        load:
+          usecols:
+          - 1
+          - 3
+          - 4
+          header: 0
+      ../sessions.yaml:
+        sessions.09a32989-97d0-47ca-9918-527898d9bb26:
+          participant_id: PART_003
+          session_number: 2
+    outs:
+    - path: data/interim/PART_003/2.npz
+      md5: 0c782e54adc9514b8801b76847de6f73
+      size: 23283
+  load@88d97dd0-d1e1-4f64-8c20-d950569b7880:
+    cmd: python src/load.py --params-file=params.yaml data/raw/88d97dd0-d1e1-4f64-8c20-d950569b7880.csv
+      data/interim/PART_001/1.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: data/raw/88d97dd0-d1e1-4f64-8c20-d950569b7880.csv
+      md5: 8c37badaff61bb504802f7e5d90449f6
+      size: 102062
+    - path: src/load.py
+      md5: 70e9b6df82ca95488319368beb117e6c
+      size: 1003
+    params:
+      params.yaml:
+        load:
+          usecols:
+          - 1
+          - 3
+          - 4
+          header: 0
+      ../sessions.yaml:
+        sessions.88d97dd0-d1e1-4f64-8c20-d950569b7880:
+          participant_id: PART_001
+          session_number: 1
+    outs:
+    - path: data/interim/PART_001/1.npz
+      md5: f1a45774b98fe1dcaa20248161916377
+      size: 23276
+  load@c0880af0-376b-4170-bd66-0cf2bbc158f7:
+    cmd: python src/load.py --params-file=params.yaml data/raw/c0880af0-376b-4170-bd66-0cf2bbc158f7.csv
+      data/interim/PART_005/1.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: data/raw/c0880af0-376b-4170-bd66-0cf2bbc158f7.csv
+      md5: fbd2c1f746572579d14072cdcd7e2cc8
+      size: 102075
+    - path: src/load.py
+      md5: 70e9b6df82ca95488319368beb117e6c
+      size: 1003
+    params:
+      params.yaml:
+        load:
+          usecols:
+          - 1
+          - 3
+          - 4
+          header: 0
+      ../sessions.yaml:
+        sessions.c0880af0-376b-4170-bd66-0cf2bbc158f7:
+          participant_id: PART_005
+          session_number: 1
+    outs:
+    - path: data/interim/PART_005/1.npz
+      md5: a5df67d284ebf555e34f0930edcc4f2a
+      size: 23300
+  load@583d6bfb-c5e0-4515-8880-fd8e183d75cd:
+    cmd: python src/load.py --params-file=params.yaml data/raw/583d6bfb-c5e0-4515-8880-fd8e183d75cd.csv
+      data/interim/PART_004/2.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: data/raw/583d6bfb-c5e0-4515-8880-fd8e183d75cd.csv
+      md5: 1cc744704ae39d0ec0dff9be8ff06992
+      size: 102042
+    - path: src/load.py
+      md5: 70e9b6df82ca95488319368beb117e6c
+      size: 1003
+    params:
+      params.yaml:
+        load:
+          usecols:
+          - 1
+          - 3
+          - 4
+          header: 0
+      ../sessions.yaml:
+        sessions.583d6bfb-c5e0-4515-8880-fd8e183d75cd:
+          participant_id: PART_004
+          session_number: 2
+    outs:
+    - path: data/interim/PART_004/2.npz
+      md5: 5ad7af1159f96eb84f30ce240df2c8be
+      size: 23301
+  load@99570843-e2ac-4be4-951e-d3b77f629d66:
+    cmd: python src/load.py --params-file=params.yaml data/raw/99570843-e2ac-4be4-951e-d3b77f629d66.csv
+      data/interim/PART_000/1.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: data/raw/99570843-e2ac-4be4-951e-d3b77f629d66.csv
+      md5: b9a5fab3a499058de39e7b96efd7b1d7
+      size: 101987
+    - path: src/load.py
+      md5: 70e9b6df82ca95488319368beb117e6c
+      size: 1003
+    params:
+      params.yaml:
+        load:
+          usecols:
+          - 1
+          - 3
+          - 4
+          header: 0
+      ../sessions.yaml:
+        sessions.99570843-e2ac-4be4-951e-d3b77f629d66:
+          participant_id: PART_000
+          session_number: 1
+    outs:
+    - path: data/interim/PART_000/1.npz
+      md5: f5eda63790c6dfae9b32bd29d931cb3b
+      size: 23301
+  condition@7038c22b-d5da-47c5-ab06-1b5da7f84d1f:
+    cmd: python src/condition.py --params-file=params.yaml data/interim/PART_004/1.npz
+      data/processed/PART_004/1.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: data/interim/PART_004/1.npz
+      md5: abcd2766574f86d4d0e06293aed019f7
+      size: 23275
+    - path: src/condition.py
+      md5: 49d775c42ad62e8ca1e07d89cfee7b22
+      size: 1272
+    params:
+      params.yaml:
+        condition:
+          window_length: 25
+    outs:
+    - path: data/processed/PART_004/1.npz
+      md5: b27004585ded222a59d9165737f32e3a
+      size: 23208
+  condition@7b6bcdc5-8b55-4058-9ee1-24adb19b81d8:
+    cmd: python src/condition.py --params-file=params.yaml data/interim/PART_009/1.npz
+      data/processed/PART_009/1.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: data/interim/PART_009/1.npz
+      md5: 7be48c81134f8bace776836b272eb0aa
+      size: 23296
+    - path: src/condition.py
+      md5: 49d775c42ad62e8ca1e07d89cfee7b22
+      size: 1272
+    params:
+      params.yaml:
+        condition:
+          window_length: 25
+    outs:
+    - path: data/processed/PART_009/1.npz
+      md5: 38cd92de7b0afede08812b50c921e9a3
+      size: 23208
+  condition@0cfda2cb-9a79-47ae-bc37-cd45306fa4ae:
+    cmd: python src/condition.py --params-file=params.yaml data/interim/PART_008/1.npz
+      data/processed/PART_008/1.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: data/interim/PART_008/1.npz
+      md5: ae9e1db618ce9a376caa046bf82dd4fa
+      size: 23292
+    - path: src/condition.py
+      md5: 49d775c42ad62e8ca1e07d89cfee7b22
+      size: 1272
+    params:
+      params.yaml:
+        condition:
+          window_length: 25
+    outs:
+    - path: data/processed/PART_008/1.npz
+      md5: d978a2951dacd6c8473bed71bcc9d113
+      size: 23220
+  condition@650f589d-01b3-4c35-90e6-a1f4db56e0e8:
+    cmd: python src/condition.py --params-file=params.yaml data/interim/PART_008/2.npz
+      data/processed/PART_008/2.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: data/interim/PART_008/2.npz
+      md5: cd008e44fb1430b8698caaf6166520ed
+      size: 23296
+    - path: src/condition.py
+      md5: 49d775c42ad62e8ca1e07d89cfee7b22
+      size: 1272
+    params:
+      params.yaml:
+        condition:
+          window_length: 25
+    outs:
+    - path: data/processed/PART_008/2.npz
+      md5: 69e595c4eebb9b7d12db4e97d9cb9239
+      size: 23225
+  condition@88d97dd0-d1e1-4f64-8c20-d950569b7880:
+    cmd: python src/condition.py --params-file=params.yaml data/interim/PART_001/1.npz
+      data/processed/PART_001/1.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: data/interim/PART_001/1.npz
+      md5: f1a45774b98fe1dcaa20248161916377
+      size: 23276
+    - path: src/condition.py
+      md5: 49d775c42ad62e8ca1e07d89cfee7b22
+      size: 1272
+    params:
+      params.yaml:
+        condition:
+          window_length: 25
+    outs:
+    - path: data/processed/PART_001/1.npz
+      md5: 68583251807dda26f5f21ed7de33f337
+      size: 23209
+  condition@5d36533d-4eee-41ad-8927-3bd962f85248:
+    cmd: python src/condition.py --params-file=params.yaml data/interim/PART_003/1.npz
+      data/processed/PART_003/1.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: data/interim/PART_003/1.npz
+      md5: ccd2f54be19cc52764c314447f584b19
+      size: 23292
+    - path: src/condition.py
+      md5: 49d775c42ad62e8ca1e07d89cfee7b22
+      size: 1272
+    params:
+      params.yaml:
+        condition:
+          window_length: 25
+    outs:
+    - path: data/processed/PART_003/1.npz
+      md5: 64762a4935c9ede5081724a05a968aae
+      size: 23220
+  condition@583d6bfb-c5e0-4515-8880-fd8e183d75cd:
+    cmd: python src/condition.py --params-file=params.yaml data/interim/PART_004/2.npz
+      data/processed/PART_004/2.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: data/interim/PART_004/2.npz
+      md5: 5ad7af1159f96eb84f30ce240df2c8be
+      size: 23301
+    - path: src/condition.py
+      md5: 49d775c42ad62e8ca1e07d89cfee7b22
+      size: 1272
+    params:
+      params.yaml:
+        condition:
+          window_length: 25
+    outs:
+    - path: data/processed/PART_004/2.npz
+      md5: c2e660e1da7f354b6dc4e1ec1f1ccbe2
+      size: 23203
+  condition@2a29f7d7-ab4f-445f-898c-126777161162:
+    cmd: python src/condition.py --params-file=params.yaml data/interim/PART_000/2.npz
+      data/processed/PART_000/2.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: data/interim/PART_000/2.npz
+      md5: e6ab278f785584e2e820ce5b2e5c0b48
+      size: 23294
+    - path: src/condition.py
+      md5: 49d775c42ad62e8ca1e07d89cfee7b22
+      size: 1272
+    params:
+      params.yaml:
+        condition:
+          window_length: 25
+    outs:
+    - path: data/processed/PART_000/2.npz
+      md5: 90c45a99c16279e7a853d54866447cf2
+      size: 23229
+  condition@92fdaf7d-d5c1-4d10-a283-e6dce50a06bf:
+    cmd: python src/condition.py --params-file=params.yaml data/interim/PART_001/2.npz
+      data/processed/PART_001/2.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: data/interim/PART_001/2.npz
+      md5: 022a31644f365aa89acb347071eab900
+      size: 23272
+    - path: src/condition.py
+      md5: 49d775c42ad62e8ca1e07d89cfee7b22
+      size: 1272
+    params:
+      params.yaml:
+        condition:
+          window_length: 25
+    outs:
+    - path: data/processed/PART_001/2.npz
+      md5: e23b7d8bece522657a84313513a418d8
+      size: 23202
+  condition@99570843-e2ac-4be4-951e-d3b77f629d66:
+    cmd: python src/condition.py --params-file=params.yaml data/interim/PART_000/1.npz
+      data/processed/PART_000/1.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: data/interim/PART_000/1.npz
+      md5: f5eda63790c6dfae9b32bd29d931cb3b
+      size: 23301
+    - path: src/condition.py
+      md5: 49d775c42ad62e8ca1e07d89cfee7b22
+      size: 1272
+    params:
+      params.yaml:
+        condition:
+          window_length: 25
+    outs:
+    - path: data/processed/PART_000/1.npz
+      md5: fec8043d3cdcc4c16d7a42a880e50a62
+      size: 23218
+  condition@09a32989-97d0-47ca-9918-527898d9bb26:
+    cmd: python src/condition.py --params-file=params.yaml data/interim/PART_003/2.npz
+      data/processed/PART_003/2.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: data/interim/PART_003/2.npz
+      md5: 0c782e54adc9514b8801b76847de6f73
+      size: 23283
+    - path: src/condition.py
+      md5: 49d775c42ad62e8ca1e07d89cfee7b22
+      size: 1272
+    params:
+      params.yaml:
+        condition:
+          window_length: 25
+    outs:
+    - path: data/processed/PART_003/2.npz
+      md5: ce603481efabaa75ae10bb3b5e50f6c7
+      size: 23202
+  condition@94dfa000-f9ed-4fbf-b732-eaa6e6183418:
+    cmd: python src/condition.py --params-file=params.yaml data/interim/PART_002/2.npz
+      data/processed/PART_002/2.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: data/interim/PART_002/2.npz
+      md5: aa52f035994f5f3ca34bf46da04b902d
+      size: 23283
+    - path: src/condition.py
+      md5: 49d775c42ad62e8ca1e07d89cfee7b22
+      size: 1272
+    params:
+      params.yaml:
+        condition:
+          window_length: 25
+    outs:
+    - path: data/processed/PART_002/2.npz
+      md5: 711e140777ac3df3a45bc48211159b3e
+      size: 23190
+  condition@41e70b28-8057-4236-8cce-49c9accb947f:
+    cmd: python src/condition.py --params-file=params.yaml data/interim/PART_006/2.npz
+      data/processed/PART_006/2.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: data/interim/PART_006/2.npz
+      md5: e8deb4e37a20de5870bd6d82794da7a6
+      size: 23306
+    - path: src/condition.py
+      md5: 49d775c42ad62e8ca1e07d89cfee7b22
+      size: 1272
+    params:
+      params.yaml:
+        condition:
+          window_length: 25
+    outs:
+    - path: data/processed/PART_006/2.npz
+      md5: adc8dfed5c4becda3bfb83fdcc0d1df6
+      size: 23214
+  condition@1fb69a81-1078-4588-8909-8c3054697780:
+    cmd: python src/condition.py --params-file=params.yaml data/interim/PART_005/2.npz
+      data/processed/PART_005/2.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: data/interim/PART_005/2.npz
+      md5: 81c9810ad908e5ab509a011fa7f785a2
+      size: 23291
+    - path: src/condition.py
+      md5: 49d775c42ad62e8ca1e07d89cfee7b22
+      size: 1272
+    params:
+      params.yaml:
+        condition:
+          window_length: 25
+    outs:
+    - path: data/processed/PART_005/2.npz
+      md5: 13f8d9d5220c3113e332dcd886842544
+      size: 23208
+  condition@33952ecf-906a-4a30-881c-46007f34b50b:
+    cmd: python src/condition.py --params-file=params.yaml data/interim/PART_007/1.npz
+      data/processed/PART_007/1.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: data/interim/PART_007/1.npz
+      md5: 58d785611dfbc066ebf64c3fc73ff8e2
+      size: 23283
+    - path: src/condition.py
+      md5: 49d775c42ad62e8ca1e07d89cfee7b22
+      size: 1272
+    params:
+      params.yaml:
+        condition:
+          window_length: 25
+    outs:
+    - path: data/processed/PART_007/1.npz
+      md5: 831460bfc5f6ed4e46a3dbb658efea47
+      size: 23227
+  condition@c0880af0-376b-4170-bd66-0cf2bbc158f7:
+    cmd: python src/condition.py --params-file=params.yaml data/interim/PART_005/1.npz
+      data/processed/PART_005/1.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: data/interim/PART_005/1.npz
+      md5: a5df67d284ebf555e34f0930edcc4f2a
+      size: 23300
+    - path: src/condition.py
+      md5: 49d775c42ad62e8ca1e07d89cfee7b22
+      size: 1272
+    params:
+      params.yaml:
+        condition:
+          window_length: 25
+    outs:
+    - path: data/processed/PART_005/1.npz
+      md5: bf19f8a29e7de1c26a48ddf74d044277
+      size: 23220
+  condition@ca48c98b-4e6b-4914-ab60-285d8bd1709e:
+    cmd: python src/condition.py --params-file=params.yaml data/interim/PART_009/2.npz
+      data/processed/PART_009/2.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: data/interim/PART_009/2.npz
+      md5: 00557f62cb83d12cc1200d836f76f371
+      size: 23294
+    - path: src/condition.py
+      md5: 49d775c42ad62e8ca1e07d89cfee7b22
+      size: 1272
+    params:
+      params.yaml:
+        condition:
+          window_length: 25
+    outs:
+    - path: data/processed/PART_009/2.npz
+      md5: 548fed16a2d3eba522c1dae99c38e37d
+      size: 23209
+  condition@595df548-e819-449c-9607-e479a335e4cc:
+    cmd: python src/condition.py --params-file=params.yaml data/interim/PART_006/1.npz
+      data/processed/PART_006/1.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: data/interim/PART_006/1.npz
+      md5: 330fe38f24fdf411938f0610bc5e461e
+      size: 23273
+    - path: src/condition.py
+      md5: 49d775c42ad62e8ca1e07d89cfee7b22
+      size: 1272
+    params:
+      params.yaml:
+        condition:
+          window_length: 25
+    outs:
+    - path: data/processed/PART_006/1.npz
+      md5: 4171c1358d426410f61388f7d6aa286e
+      size: 23214
+  condition@76e8531e-dcb0-48dc-8856-d703a5d575e7:
+    cmd: python src/condition.py --params-file=params.yaml data/interim/PART_007/2.npz
+      data/processed/PART_007/2.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: data/interim/PART_007/2.npz
+      md5: 00724f016e2d3d39f3c20e3e18555824
+      size: 23287
+    - path: src/condition.py
+      md5: 49d775c42ad62e8ca1e07d89cfee7b22
+      size: 1272
+    params:
+      params.yaml:
+        condition:
+          window_length: 25
+    outs:
+    - path: data/processed/PART_007/2.npz
+      md5: ca3e90b2aa307a3a15b9ba54cb8255df
+      size: 23208
+  condition@3778272f-3275-483b-b5b9-248ec504bdff:
+    cmd: python src/condition.py --params-file=params.yaml data/interim/PART_002/1.npz
+      data/processed/PART_002/1.npz
+    deps:
+    - path: ../../poetry.lock
+      md5: 5542680e119a059c162c95d93807a2e4
+      size: 245503
+    - path: data/interim/PART_002/1.npz
+      md5: c2800195797b042b96ea362ed20315bf
+      size: 23292
+    - path: src/condition.py
+      md5: 49d775c42ad62e8ca1e07d89cfee7b22
+      size: 1272
+    params:
+      params.yaml:
+        condition:
+          window_length: 25
+    outs:
+    - path: data/processed/PART_002/1.npz
+      md5: 4b080086c747a50938e6eea6fcce1492
+      size: 23212

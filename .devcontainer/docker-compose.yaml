@@ -1,0 +1,18 @@
+version: '3.8'
+services:
+  dev:
+    build:
+      context: ..
+      dockerfile: Dockerfile
+      args:
+        DVC_DEVICE: ${DVC_DEVICE:-cpu}
+    platform: linux/amd64
+    runtime: ${DVC_DEVICE:-runc}
+    image: dvc-parallel-runner-example:dev
+    volumes:
+      - ..:/home/dvc/app:cached
+      - dvc_cache:/home/dvc/app/.dvc/cache
+    command: [sleep, infinity]
+
+volumes:
+  dvc_cache:

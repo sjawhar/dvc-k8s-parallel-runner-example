@@ -1,0 +1,39 @@
+vars:
+  - ../sessions.yaml:sessions
+
+stages:
+  load:
+    foreach: ${sessions}
+    do:
+      cmd: >-
+        python src/load.py
+        --params-file=params.yaml
+        data/raw/${key}.csv
+        data/interim/${item.participant_id}/${item.session_number}.npz
+      deps:
+        - ../../poetry.lock
+        - src/load.py
+        - data/raw/${key}.csv
+      params:
+        - load
+        - ../sessions.yaml:
+            - sessions.${key}
+      outs:
+        - data/interim/${item.participant_id}/${item.session_number}.npz
+
+  condition:
+    foreach: ${sessions}
+    do:
+      cmd: >-
+        python src/condition.py
+        --params-file=params.yaml
+        data/interim/${item.participant_id}/${item.session_number}.npz
+        data/processed/${item.participant_id}/${item.session_number}.npz
+      deps:
+        - ../../poetry.lock
+        - src/condition.py
+        - data/interim/${item.participant_id}/${item.session_number}.npz
+      params:
+        - condition
+      outs:
+        - data/processed/${item.participant_id}/${item.session_number}.npz

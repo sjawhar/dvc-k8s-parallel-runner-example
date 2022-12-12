@@ -1,0 +1,6 @@
+load:
+  usecols: [1, 3, 4]
+  header: 0
+
+condition:
+  window_length: 25

@@ -1,0 +1,42 @@
+vars:
+  - ../sessions.yaml:sessions
+
+stages:
+  analyze:
+    foreach: ${sessions}
+    do:
+      cmd: >-
+        python src/analyze.py
+        --params-file=params.yaml
+        ../load/data/processed/${item.participant_id}/${item.session_number}.npz
+        models/${item.participant_id}/${item.session_number}.npz
+      deps:
+        - ../../poetry.lock
+        - src/analyze.py
+        - ../load/data/processed/${item.participant_id}/${item.session_number}.npz
+      params:
+        - analyze
+      outs:
+        - models/${item.participant_id}/${item.session_number}.npz
+
+  aggregate:
+    cmd: >-
+      python src/aggregate.py
+      --params-file=params.yaml
+      --plot=plots/model.png
+      --sessions-file=../sessions.yaml
+      models
+      metrics/metrics.json
+    deps:
+      - ../../poetry.lock
+      - src/aggregate.py
+      - models
+    params:
+      - aggregate
+      - ../sessions.yaml:
+          - sessions
+    metrics:
+      - metrics/metrics.json:
+          cache: false
+    plots:
+      - plots/model.png

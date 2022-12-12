@@ -1,0 +1,4 @@
+*.npz
+
+data/raw/*
+!data/raw/*.dvc

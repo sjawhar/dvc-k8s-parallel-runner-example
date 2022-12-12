@@ -1,0 +1,10 @@
+analyze:
+  fit_intercept: True
+
+aggregate:
+  ranksums:
+    alternative: greater
+  precision: 5
+  plot:
+    figsize: [16, 5]
+    tight_layout: true

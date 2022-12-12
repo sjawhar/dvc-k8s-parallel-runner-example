@@ -1,0 +1,6 @@
+[cache]
+    type = "reflink,hardlink,symlink"
+[core]
+    remote = my-special-remote
+['remote "my-special-remote"']
+    url = s3://my-special-dvc-remote
